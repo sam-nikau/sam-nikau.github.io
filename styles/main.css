@@ -2,11 +2,12 @@
   border-bottom: double;
   padding: 30px;
   text-align: center;
-  background-color: rgb(238, 238, 238);
-  color: #41454a;
-  background-color: beige;
+  background-color: rgb(34, 40, 49);
+  color: rgb(238, 238, 238);
   font-family: fantasy;
 }
+
+/*  Nav Bar */
 
 .navigation {
   display: flex;
@@ -25,22 +26,66 @@
   color: antiquewhite;
 }
 
+body {
+  background-color: rgb(215, 215, 215);
+}
+
+a:link, a:visited {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(238, 238, 238);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(34, 40, 49);
+  transition-duration: 1s;
+}
+
+.card {
+border: 20px rgb(57, 62, 70);
+padding: 30px;
+margin: 30px;
+border-radius: 15px;
+background-color: rgb(57, 62, 70);
+display: flex;
+flex-direction: column;
+align-items: center;
+box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
+width: 50%;
+transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 12px 15px 0 rgb(0, 0, 0);
+ 
+}
+
 img {
   width: 100%;
   max-width: 600px;
   height: fit-content;
 }
 
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(238, 238, 238);
+  gap: 10px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: bisque;
-  color: rgb(246, 249, 251);
-  color: #41454a;
+  background-color: rgb(57, 62, 70);
+  color: rgb(238, 238, 238);
   gap: 10px;
 }
-
 
 .underline {
   text-decoration: underline
@@ -61,14 +106,14 @@ img {
 }
 
 .box_no_padding {
-  background-color: lightgrey;
+  background-color: rgb(34, 40, 49);
   width: 300px;
   border: 15px solid rgb(0, 173, 181);
   padding: 0px;
   margin: 20px;
 }
 .box_with_padding {
-  background-color: lightgrey;
+  background-color: rgb(34, 40, 49);
   width: 300px;
   border: 15px solid rgb(0, 173, 181);
   padding: 100px;
@@ -76,7 +121,7 @@ img {
 }
 
 .box_border {
-  background-color: lightgrey;
+  background-color: rgb(34, 40, 49);
   width: 300px;
   border: 30px solid rgb(0, 173, 181);
   padding: 20px;
@@ -84,7 +129,7 @@ img {
 }
 
 .box_border_radius {
-  background-color: lightgrey;
+  background-color: rgb(34, 40, 49);
   width: 300px;
   border: 30px solid rgb(0, 173, 181);
   padding: 20px;
@@ -93,7 +138,7 @@ img {
 }
 
 .box_no_margin {
-  background-color: lightgrey;
+  background-color: rgb(34, 40, 49);
   width: 300px;
   border: 30px solid rgb(0, 173, 181);
   padding: 20px;
@@ -101,7 +146,7 @@ img {
 }
 
 .box_50_margin {
-  background-color: lightgrey;
+  background-color: rgb(34, 40, 49);
   width: 300px;
   border: 30px solid rgb(0, 173, 181);
   padding: 20px;
