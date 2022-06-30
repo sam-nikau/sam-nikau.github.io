@@ -1,20 +1,99 @@
-.main_container {
-    background-color: rgb(252, 248, 233);
-}
-
 .header_container {
   border-bottom: double;
   padding: 30px;
   text-align: center;
+  background-color: rgb(238, 238, 238);
+  color: #41454a;
 }
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  list-style: none;
+  margin: 0;
+  background: #00ADB5;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1.5em;
+  color: antiquewhite;
+}
+
+
 
 img {
   width: 100%;
+  max-width: 600px;
   height: fit-content;
 }
 
 .box {
+  display: flex;
+  justify-content: center;
   padding: 50px;
-  background-color: aliceblue;
-  border-bottom: double;
+  background-color: rgb(255, 236, 203);
+  color: rgb(246, 249, 251);
+  
+}
+
+.underline {
+  text-decoration: underline
+}
+
+
+
+
+
+
+
+.box_no_padding {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(0, 173, 181);
+  padding: 0px;
+  margin: 20px;
+}
+.box_with_padding {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(0, 173, 181);
+  padding: 100px;
+  margin: 20px;
+}
+
+.box_border {
+  background-color: lightgrey;
+  width: 300px;
+  border: 30px solid rgb(0, 173, 181);
+  padding: 20px;
+  margin: 20px;
+}
+
+.box_border_radius {
+  background-color: lightgrey;
+  width: 300px;
+  border: 30px solid rgb(0, 173, 181);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.box_no_margin {
+  background-color: lightgrey;
+  width: 300px;
+  border: 30px solid rgb(0, 173, 181);
+  padding: 20px;
+  margin: 0px;
+}
+
+.box_50_margin {
+  background-color: lightgrey;
+  width: 300px;
+  border: 30px solid rgb(0, 173, 181);
+  padding: 20px;
+  margin: 50px;
 }
