@@ -9,61 +9,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="main_container">
+    <div>
+      <ul class="navigation">
+        <li><a href="#">About</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
       <header class="header_container">
         <div>
           <h1>Sam Dransfield</h1>
-          <h2>My blog while at Dev Academy</h2>
-        </div>
-        <div>
-          <ul class="navigation">
-            <li><a href="/index.html">About</a></li>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <h2>Welcome to my blog while at Dev Academy</h2>
         </div>
       </header>
       <main>
         <div class="content">
+          <div class="card">
             <h2>Technical Blog - HTML & CSS</h2>
             <h3>What is the difference between Margin, Border, and Padding?</h3>
-            <h4 class="underline">Box Model</h4>
+          </div>
+          <div class="card">
+            <h2 class="underline">Box Model</h2>
             <h4>
               Every bit of content has a "box" around it, which can control the
               spacing to other "boxes" of content and the styling around itself.
             </h4>
             <img src="/Pictures/box_model.png" alt="Box Model" />
-            <h4 class="underline">Padding</h4>
+            </div>
+            <div class="card">
+            <h2 class="underline">Padding</h2>
             <h4>
               In the diagram below the padding can be explained as been the
               spacing between the content and the border, With no padding and
               having a border, the border would surround the content the closest
               it can with out overlapping it.
             </h4>
-            <div>
+            <div >
               <h4 class="box_no_padding">No padding</h4>
               <h4 class="box_with_padding">Content with 100px of padding</h4>
             </div>
-            <h4 class="underline">Border</h4>
+            </div>
+            <div class="card">
+            <h2 class="underline">Border</h2>
             <h4>
               The border is the part of the box model we can see, all types of
               variables can be altered, thickness, color, style ect ect.
             </h4>
-            <div>
-              <h4 class="box_border">Border with thickness of 100px</h4>
-              <h4 class="box_border_radius">Border with rounded edges</h4>
-            </div>
-            <h4 class="underline">Margins</h4>
-            <h4>
-              Margins could be explained as an invisible barrier that allows how
-              close other "boxes" of content can get. They create further space
-              around borders if defined.
-            </h4>
-            <div>
-              <h4 class="box_no_margin">Two boxes with no margin</h4>
-              <h4 class="box_no_margin">Two boxes with no margin</h4>
-              <h4 class="box_50_margin">This box has a margin of 100</h4>
-            </div>
+                <div>
+                  <h4 class="box_border">Border with thickness of 100px</h4>
+                  <h4 class="box_border_radius">Border with rounded edges</h4>
+                </div>
+              </div>
+              <div class="card">
+               <h2 class="underline">Margins</h2>
+                <h4>
+                Margins could be explained as an invisible barrier that allows how
+                close other "boxes" of content can get. They create further space
+                around borders if defined.
+                </h4>
+              <div>
+                <h4 class="box_no_margin">Two boxes with no margin</h4>
+                <h4 class="box_no_margin">Two boxes with no margin</h4>
+                <h4 class="box_50_margin">This box has a margin of 100px</h4>
+              </div>
+              </div>
             </div>
         </div>
       </main>
