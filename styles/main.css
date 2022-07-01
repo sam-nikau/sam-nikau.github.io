@@ -2,9 +2,9 @@
 .header_container {
   border-bottom: double;
   text-align: center;
-  background-color: rgb(57, 62, 70);
-  color: rgb(238, 238, 238);
-  font-family: fantasy;
+  background-color: rgb(225, 225, 225);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif ;
   margin-top: 40px;
   padding-top: 20px;
 }
@@ -16,7 +16,7 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
   list-style: none;
-  background: #00ADB5;
+  background: #fcfcfc;
 
   overflow: hidden;
   position: fixed;
@@ -39,7 +39,11 @@ ul {
 body {
   margin: 0px;
   padding: 0px;
+  
 }
+
+
+
 
 /* Links */
 
@@ -48,7 +52,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: rgb(238, 238, 238);
+  color: rgb(2, 2, 2);
   font-size: 16px;
   font-weight: bold;
 }
@@ -63,10 +67,10 @@ a:link, a:visited {
 
 .card {
 border: 1px rgb(57, 62, 70);
-border-radius: 15px;
+border-radius: 1px;
 padding: 1.5rem;
 margin: .5rem;
-background-color: rgb(57, 62, 70);
+background-color: rgb(230, 230, 230);
 box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
 width: 50%;
 transition: 0.2s;
@@ -80,7 +84,8 @@ align-self: center;
 img {
   width: 100%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 1px;
+  border-style: none;
 }
 
 .content {
@@ -88,20 +93,18 @@ img {
   flex-direction: column;
   align-items: center;
   background-color: rgb(238, 238, 238);
-  color: rgb(238, 238, 238);
   gap: 10px;
    
 }
 
 h1 {
   text-align: center;
-  font-family: fantasy;
-  text-decoration: underline;
+  font-family: sans-serif;
+  
 }
 
 h2 {
-  font-family: fantasy;
-  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -109,10 +112,7 @@ h3 {
   font-family: fantasy;
 }
 
-footer p {
-  text-align: center;
-  padding-top: 5px;
-}
+
 
 @media (landscape) {
   
@@ -188,3 +188,5 @@ footer p {
     margin-top: 80px;
   }
 }
+
+
