@@ -2,34 +2,16 @@
 .header_container {
   border-bottom: double;
   text-align: center;
-  background-color: rgb(225, 225, 225);
-  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 16, 16);
   font-family: sans-serif ;
   margin-top: 40px;
   padding-top: 20px;
 }
 
-/*  Nav Bar */
 
-.navigation {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  list-style: none;
-  background: #fcfcfc;
 
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
 
-.navigation a {
-  text-decoration: none;
-  display: block;
-  color: antiquewhite;
-  float: left;
-}
 
 ul {
   margin-block-start: 0px;
@@ -52,25 +34,42 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: rgb(2, 2, 2);
+  color: rgb(12, 12, 12);
   font-size: 16px;
   font-weight: bold;
 }
+
+/*  Nav Bar */
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  background: #5879e7;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: rgb(170, 151, 126);
+}
+
+
 
 .main_content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(238, 238, 238);
+  color: rgb(255, 255, 255);
   gap: 10px;
 }
 
 .card {
 border: 1px rgb(57, 62, 70);
-border-radius: 1px;
+border-radius: 20px;
 padding: 1.5rem;
 margin: .5rem;
-background-color: rgb(230, 230, 230);
+background-color: rgb(253, 253, 253);
 box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
 width: 50%;
 transition: 0.2s;
@@ -114,9 +113,7 @@ h3 {
 
 
 
-@media (landscape) {
-  
-}
+
 
 /* Below is classes for CSS concepts - Margins borders and padding */
 
