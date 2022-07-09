@@ -220,12 +220,6 @@ a.one:link, a.one:visited {
   margin: 50px;
 }
 
-@media (max-width: 780px) {
-  .card {
-   
-  }
-}
-
 @media (max-width: 373px) {
   .header_container {
     margin-top: 80px;
