@@ -162,6 +162,8 @@ a.one:link, a.one:visited {
 
 .hero-image-learning-plan {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Pictures/a-monkey-on-a-stone-wall-amongst-the-trees.jpg");
+  height: 40%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
