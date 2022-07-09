@@ -4,52 +4,87 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
-        <title>HTML Template</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript and the DOM</title>
     </head>
     <body>
-      <div>
-        <div>
+      <div class="hero-image-javascript-dom">
+        <div class="hero-text">
+        <h1 style="font-size: 50px;">JavaScript and the DOM</h1>
         </div>
-        <div>
-          <h2>An analogy to describe JavaScript and its relationship to HTML and CSS.</h2>
-          <h3>
+        <ul class="nav">
+          <li><a class="one" href="#">About</a></li>
+          <li><a class="one" href="/index.html">Home</a></li>
+          <li><a class="one" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <main>
+      <div class="content_container">
+        <div class="content">
+          <h2 class="content_header">An analogy to describe JavaScript and its relationship to HTML and CSS.</h2>
+          <p>
               To try make these easier to understand, lets think of them combined as a city.  HTML provides the structure, the 
               divisions, the parks and where they are, is the park inside a city block of houses or is the park completely surrounding the Libiary.
               Next is CSS, think of this as the style, back to our city, this could change how big the park is, is it all green grass or massive trees 
               with golden leaves, even how big those skyscrapers are.
               Finally JavaScript, this is used to create interactive functionality. This could give the city its life, the park could now have those 
               icecream trucks depending on the weather and that skyscraper now has a viewing platform that charges $10 a session. 
-          </h3>
+          </p>
         </div>
-        <div>
-          <h2>Explain control flow and loops using an example process from everyday life.</h2>
-          <h3>
+        <div class="content">
+          <h2 class="content_header"2>Explain control flow and loops using an example process from everyday life.</h2>
+          <p>
             Computers are complex machines but follow a very simple process when reading code. Starting from the top, and will not 
             progress down until it has completed the previous, this is control flow, 
             Loops in a programing language almost trap the control flow in a cycle allowing the same thing to happen with minor changes until a 
             total is reached. However if this is setup in correctly this endless loop can be enough to crash the application.
 
-            Lets use the method of baking a cake.
-            <li>
-              
-            </li>
-            
-          </h3>
+            <h3>Lets use the method of making of a cake as an example.</h3> 
+              <ul>
+                <li>Prepare baking pans</li>
+                <li>Preheat oven.</li>
+                <li>Whisk dry ingredients, which is also a loop whisk for 10sec, stop check for been completely mixed if not, back to whisking starting the cycle again and repeating untill completely mixed</li>
+                <li>Cream the butter and sugar.</li>
+                <li>Once in the mixer adding the eggs one at a time, mixing then another egg, untill all eggs have been added and well mixed</li>
+                <li>Pour the batter in the pans</li>
+                <li>Place in the heated oven, and leave for a set amount of time.</li>
+                <li>Once baked leave to cool, before icing can be done</li>
+              </ul>
+          </p>
         </div>
-        <div>
-          <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
-          <h3></h3>
+        <div class="content">
+          <h2 class="content_header">Describe what the DOM is and an example of how you might interact with it.</h2>
+          <p>DOM stands for Document Object Model, and was created as an interface to allow web developers to create, change or remove elements from a document.
+            The D class="content_header"OM creates a tree of Nodes out of an HTML document with every node representing an html element. Below is an example of the DOM tree structure. </p>
+            <img src="./Pictures/DOM tree structure.png" alt="" class="center">
+            <p>The above example, our document is called the root node, this contains one child node which is the &lt;HTML&gt; element, this element contains two children which are the &lt;head&gt; and &lt;body&gt; and each of these elements contain their
+              own children and each of those can if required also have children.  </p>
+              <p>Selecting elements in the HTML document</p>
+              <p>One method of selecting elements is getElementById(), for this to work we have to create ids which are used as unique identifiers for elements in the HTML document</p>
+              <img src="./Pictures/id example 1.png" alt="" class="center"> <img src="./Pictures/id example 2.png" alt="" class="center">
         </div>
-        <div>
-          <h2>Explain the difference between accessing data from arrays and objects.</h2>
-          <h3></h3>
+        <div class="content">
+          <h2 class="content_header">Explain the difference between accessing data from arrays and objects.</h2>
+          <p>Arrays and objects both are able to store data but do it different ways.  Arrays store single variables and assign each to a indexes, one important note is this starts from zero </p>
+          <img src="./Pictures/array 1.png" alt="" class="center"> <img src="./Pictures/array2.png" alt="" class="center">
+          <p>In the above examples firstly we can see the array been created and also the index positions, in the second this code is grabbing the array named names the third index(Paul) and storing in the new variable name.</p>
+          <p>Objects are similar to arrays and can contain many values, how ever each value is assigned to a name.  </p>
+          <img src="./Pictures/object1call.png" alt="" class="center"> <img src="./Pictures/object1create.png" alt="" class="center">
+          <p>In the above examples, firstly the object is created with its property and property value. The method of accessing the value is done either way, line 9 is done if the property name is known and line 11 if it isnt known or changes as such an 
+            example would be in side a loop.
+          </p>
         </div>
-        <div>
-          <h2>Explain what functions are and why they are helpful.</h2>
-          <h3></h3>
+        <div class="content">
+          <h2 class="content_header">Explain what functions are and why they are helpful.</h2>
+          <p>Functions are a block of code that once called perform a certain task.  They usually are created if a task will be called more than twice during a program. This saves alot of time and space as some functions can be many many lines long and copy pasting 
+            this everytime.  They even can can take different arguments, to produce different results. </p>
+            <img src="./Pictures/functionExample1.png" alt="" class="center">
+            <p>The above example, is  function that has been created to produce a random number, when calling the function, arguments can be entered at the min and max, which will product a random number in a different range.</p>
         </div>
       </div>
-
+      </main>
     </body>
+    <footer><p>Created by Sam Dransfield 2022</p>
+      <a href="#top"> <span style="color: black; font-size: 16px;">Back to the top</span></a></footer>
 </html>

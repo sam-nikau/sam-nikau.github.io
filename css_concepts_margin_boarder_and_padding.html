@@ -4,31 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>html-css</title>
+    <title>hMargin, boarders and paddings</title>
     <link rel="stylesheet" href="/styles/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div>
-      <ul class="navigation">
-        <li><a href="#">About</a></li>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="#">Contact</a></li>
+    <div class="hero-image-html">
+      <div class="hero-text">
+      <h1 style="font-size: 50px;">What are margin, boarders and padding</h1>
+      </div>
+      <ul class="nav">
+        <li><a class="one" href="#">About</a></li>
+        <li><a class="one" href="/index.html">Home</a></li>
+        <li><a class="one" href="#">Contact</a></li>
       </ul>
     </div>
-      <header class="header_container">
-        <div>
-          <h1>Welcome to my Journey while at Dev Academy</h1>
-          <h2>Sam Dransfield</h2>
-        </div>
-      </header>
       <main>
-        <div class="content">
-          <div class="card">
+        <div class="content_container">
+          <div class="content">
             <h2>Technical Blog - HTML & CSS</h2>
             <h3>What is the difference between Margin, Border, and Padding?</h3>
           </div>
-          <div class="card">
+          <div class="content">
             <h2 class="underline">Box Model</h2>
             <h4>
               Every bit of content has a "box" around it, which can control the
@@ -36,7 +33,7 @@
             </h4>
             <img src="/Pictures/box_model.png" alt="Box Model" />
             </div>
-            <div class="card">
+            <div class="content">
             <h2 class="underline">Padding</h2>
             <h4>
               In the diagram below the padding can be explained as been the
@@ -49,7 +46,7 @@
               <h4 class="box_with_padding">Content with 100px of padding</h4>
             </div>
             </div>
-            <div class="card">
+            <div class="content">
             <h2 class="underline">Border</h2>
             <h4>
               The border is the part of the box model we can see, all types of
@@ -60,7 +57,7 @@
                   <h4 class="box_border_radius">Border with rounded edges</h4>
                 </div>
               </div>
-              <div class="card">
+              <div class="content">
                <h2 class="underline">Margins</h2>
                 <h4>
                 Margins could be explained as an invisible barrier that allows how
@@ -78,4 +75,8 @@
       </main>
     </div>
   </body>
+  <footer>
+    <p>Created by Sam Dransfield 2022</p>
+    <a href="#top"> <span style="color: black; font-size: 16px;">Back to the top</span></a>
+  </footer>
 </html>
