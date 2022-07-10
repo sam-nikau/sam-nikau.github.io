@@ -160,8 +160,21 @@ a.one:link, a.one:visited {
   margin-bottom: 50px;
 }
 
+/* Hero image Learning Plan */
+
 .hero-image-learning-plan {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Pictures/a-monkey-on-a-stone-wall-amongst-the-trees.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.hero-image-eq {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Pictures/emotional_inteligence_pic.jpeg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
