@@ -16,6 +16,11 @@ body {
   /* font-size: 30px; */
 }
 
+h2 {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
 /* Links */
 
 a:link, a:visited {
@@ -183,6 +188,17 @@ a.one:link, a.one:visited {
   height: 200px;
   margin-bottom: 50px;
 }
+
+.hero-image-problem-solving {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Pictures/rubber-duck.png");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    margin-bottom: 50px;
+  }
 
 /* Below is classes for CSS concepts - Margins borders and padding */
 
